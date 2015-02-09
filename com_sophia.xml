@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" method="upgrade" version="2.5.0">
+	<name>Sophia</name>
+	<creationDate>31/05/2012</creationDate>
+	<author>Alex Olave</author>
+	<authorEmail>contacto@alfazeta.cl</authorEmail>
+	<authorUrl>www.alfazeta.cl</authorUrl>
+	<copyright>Copyright (C) - All reserved</copyright>
+	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+	<version>0.0.13</version>
+	<description>Sophia</description>
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<update> <!-- Runs on update; New in 2.5 -->
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+	<installfile>install.sophia.php</installfile>
+	<files folder="components/com_sophia">
+		<filename>index.html</filename>
+		<filename>sophia.php</filename>
+		<filename>controller.php</filename>
+        <folder>views</folder>
+	    <folder>helpers</folder>
+	    <folder>models</folder>
+	    <folder>templates</folder>
+		<folder>images</folder>
+		<folder>controllers</folder>
+		<folder>libraries</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.com_sophia.ini</language>
+		<language tag="es-ES">es-ES/es-ES.com_sophia.ini</language>
+	</languages>
+	
+	<!-- Site Main Media File Copy Section -->
+	<media destination="com_sophia" folder="media" >
+		<folder>images</folder>
+	</media>
+
+	<administration>
+		<menu img="components/com_sophia/assets/images/icon-16-menu-nom.png" link="option=com_sophia">Sistema Academico</menu>
+		<submenu>
+                    <menu img="components/com_sophia/assets/images/icon-16-menu-logo.png" view="sophia" link="option=com_sophia">Panel de Control</menu>
+                    <menu img="components/com_sophia/assets/images/icon-16-menu-items.png" view="alumnos" link="option=com_sophia&amp;view=alumnos">Alumnos</menu>
+					<menu img="components/com_sophia/assets/images/icon-16-menu-items.png" view="profesores" link="option=com_sophia&amp;view=profesores">Profesores</menu>
+		</submenu>
+
+		<files folder="administrator/components/com_sophia">
+			<filename>admin.sophia.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>help</folder>
+			<folder>models</folder>
+    		<folder>tables</folder>
+	    	<folder>views</folder>
+			<folder>sql</folder>
+		</files>
+
+		<languages folder="administrator/language">
+			<language tag="en-GB">en-GB/en-GB.com_sophia.ini</language>
+			<language tag="es-ES">es-ES/es-ES.com_sophia.ini</language>
+		</languages>
+	</administration>
+
+   <updateservers>
+      <server type="extension" priority="1" name="Sophia">http://www.alfazeta.cl/svn</server>
+   </updateservers>
+</install>

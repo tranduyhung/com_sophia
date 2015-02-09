@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Listado de Libros ABIES">
+		<message>
+			<![CDATA[STANDARD DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Libros</name>
+		<description>Muestra el listado de libros del Sistema ABIES</description>
+	</state>
+
+</metadata>

@@ -1,0 +1,246 @@
+/* 
+  //----------------------------------------------------------------------
+  // Sophia
+  // Sophia by Alex Olave - http://www.alfazeta.cl
+  //----------------------------------------------------------------------
+
+  //----------------------------------------------------------------------
+  // Author: 	Alex Olave - http://www.alfazeta.cl
+  // Copyright: copyright (C) 2012 - Alex olave.
+  // License: 	GNU/GPL, http://www.gnu.org/copyleft/gpl.html
+  // Pack: 	Sophia
+  // File: 	default.php
+  //----------------------------------------------------------------------
+
+  //----------------------------------------------------------------------
+  // Sophia is free software. This version may have been modified pursuant
+  // to the GNU General Public License, and as distributed it includes or
+  // is derivative of works licensed under the GNU General Public License or
+  // other free or open source software licenses.
+  //----------------------------------------------------------------------
+
+*/
+.nom_cp_info {
+	min-width: 300px;
+	background-color: #EEE;
+	border: 1px solid #F4C411;
+	margin: 15px;
+	padding: 15px;
+}
+
+.nom_cp_info_box {
+	border: 1px dashed #F4C411;
+	background-color: #FFF;
+	padding: 5px;
+}
+
+#nom_cp_menu {
+	background-color: #EEE;
+	color: #83888D;
+}
+
+#nom_cp_config {
+	background-color: #EEE;
+	color: #83888D;
+}
+
+#nom_cp_changelogs,#nom_cp_checks,#nom_cp_news {
+	background-color: #EEE;
+	color: #83888D;
+}
+
+span.icon-32-next {
+	background: url('../../../templates/khepri/images/j_button1_next.png')
+		no-repeat left;
+}
+
+span.icon-32-prev {
+	background: url('../../../templates/khepri/images/j_button1_prev.png')
+		no-repeat left;
+}
+
+span.icon-32-last {
+	background:
+		url('../../../templates/khepri/images/j_button1_refresh.png')
+		no-repeat left;
+}
+
+span.icon-32-next_noa {
+	background:
+		url('../../../templates/khepri/images/j_button2_next_off.png')
+		no-repeat left;
+}
+
+span.icon-32-prev_noa {
+	background:
+		url('../../../templates/khepri/images/j_button2_prev_off.png')
+		no-repeat left;
+}
+
+div.icon-48-nom {
+	background: url('images/icon-48-nom.png') no-repeat left;
+}
+
+div.icon-48-alumnos {
+	background: url('images/apps/alumnos_48x48.png') no-repeat left;
+}
+
+div.icon-48-profesores {
+	background: url('images/apps/funcionarios_48x48.png') no-repeat left;
+}
+
+div.icon-48-cursos {
+	background: url('images/apps/cursos_48x48.png') no-repeat left;
+}
+
+div.icon-48-cursosprof {
+	background: url('images/apps/cursos_prof_48x48.png') no-repeat left;
+}
+
+div.icon-48-asignaturas {
+	background: url('images/apps/asignatura_48x48.png') no-repeat left;
+}
+
+div.icon-48-materias {
+	background: url('images/apps/asigna_prof_48x48.png') no-repeat left;
+}
+
+div.icon-48-periodos {
+	background: url('images/apps/calendario_48x48.png') no-repeat left;
+}
+
+div.icon-48-evaluaciones {
+	background: url('images/apps/evaluacion_48x48.png') no-repeat left;
+}
+
+div.icon-48-notas {
+	background: url('images/apps/notas_48x48.png') no-repeat left;
+}
+
+div.icon-48-colegios {
+	background: url('images/apps/home_48x48.png') no-repeat left;
+}
+
+div.icon-48-map {
+	background: url('images/apps/map_48x48.png') no-repeat left;
+}
+
+div.icon-48-anotaciones {
+	background: url('images/apps/anotaciones_48x48.png') no-repeat left;
+}
+
+div.icon-48-aranceles {
+	background: url('images/apps/cuotas_48x48.png') no-repeat left;
+}
+
+div.icon-48-inasistencias {
+	background: url('images/apps/inasistencias_48x48.png') no-repeat left;
+}
+
+div.icon-48-amarillo {
+	background: url('images/circulo_amarillo.jpg') no-repeat left;
+}
+
+div.icon-48-naranjo {
+	background: url('images/circulo_naranjo.jpg') no-repeat left;
+}
+
+div.icon-publish {
+	background: url('images/tick.png') no-repeat left;
+}
+
+div.icon-unpublish {
+	background: url('images/publish_x.png') no-repeat left;
+}
+
+div.icon-48-matriculas {
+	background: url('images/apps/matricula_48x48.png') no-repeat left;
+}
+
+.nom_version_bad {
+	color: #F00;
+}
+
+.nom_version_good {
+	color: #0F0;
+}
+
+.nom_update_in_front {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0px 30px 0px 20px;
+}
+
+.checks {
+	font-size: 115%;
+}
+
+.checksupgrade {
+	color: #00A;
+}
+
+.checkserror {
+	color: #A00;
+}
+
+.checkswarning {
+	color: #AA0;
+}
+
+.checkssuccess {
+	color: #0A0;
+}
+
+.nom_rss_new,.nom_changelogs_version {
+	margin: 30px;
+	border: 1px solid #EAEEFF;
+	padding: 20px;
+	background: #FFF;
+}
+
+.nom_rss_new .category {
+	font-weight: bold;
+}
+
+.nom_rss_new .pubdate,.nom_changelogs_version .date {
+	color: #555;
+	font-size: 90%;
+}
+
+.nom_rss_new .description {
+	border-top: 1px solid #EAEEFF;
+	margin-top: 10px;
+}
+
+.nom_changelogs_version .version {
+	font-size: 110%;
+	color: #115fb2;
+	font-weight: bold;
+}
+
+.nom_changelogs_version .changes {
+	margin-top: 3px;
+	margin-left: 10px;
+}
+
+.nom_changelogs_version .change_bug {
+	color: #900;
+	border-left: 10px solid #900;
+	padding-left: 10px;
+}
+
+.nom_changelogs_version .change_upgrade {
+	color: #009;
+	border-left: 10px solid #009;
+	padding-left: 10px;
+}
+
+.nom_changelogs_version .change_feature {
+	color: #090;
+	border-left: 10px solid #090;
+	padding-left: 10px;
+}
+
+.redText {
+	color: red;
+}

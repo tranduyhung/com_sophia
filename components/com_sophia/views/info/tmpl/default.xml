@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Informacion del alumno">
+		<message>
+			<![CDATA[STANDARD DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Alumno</name>
+		<description>Muestra toda la informacion necesaria de un alumno</description>
+	</state>
+
+</metadata>
